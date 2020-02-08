@@ -1,0 +1,111 @@
+.home {
+    margin: 10px;
+    padding: 20px 10px 10px 20px;
+    background-color: #808080;
+    border: 0px 50px 5px 5px;
+    border-bottom-color: black;
+    color: white;
+}
+
+.back-to-home {
+    margin: 10px;
+    padding: 20px 10px 10px 20px;
+    padding-top: 4px black;
+    border: 10px;
+    background-color: #808080;
+    color: white;
+    text-decoration: underline;
+}
+
+.circle-with-border {
+    background-color:blue;
+    border:8px solid orange;    
+    height:200px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:200px;
+}
+
+.circle {
+    background-color:blue;
+    border:0px solid orange;    
+    height:200px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:200px;
+}
+
+.square {
+    background-color: orange;
+    width: 50px;
+    border: 0px solid green;
+    padding: 60px;
+    margin: 30px;
+  }
+
+.square-with-border {
+    background-color: orange;
+    width: 50px;
+    border: 6px solid blue;
+    padding: 60px;
+    margin: 30px;
+  }
+
+
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    position: absolute;
+    top: 210px;
+    margin: 30px;
+    padding: 20px;
+}
+
+#top-left {
+    width: 75px;
+    height: 75px;
+    background: green;
+    position: relative;
+    right: -45px;
+    top: -20px
+}
+
+
+
+A.class1 {color:white;}
+A.class1:link  {text-decoration: underline; color: white;}
+A.class1:visited {text-decoration: underline; color:white;}
+A.class1:hover {text-decoration: underline; color:white;}
+A.class1:active {text-decoration: underline; color:white;}
+
+A.class2 {color:blue;}
+A.class2:link  {text-decoration: underline; color: blue;}
+A.class2:visited {text-decoration: underline; color:blue;}
+A.class2:hover {text-decoration: underline; color:blue;}
+A.class2:active {text-decoration: underline; color:blue;}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: relative;
+    top: 110px;
+    left: 93px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.shape {
+    width: 250px;
+    height: 250px;
+    background: blue;
+    border-radius: 50%;
+    position: absolute;
+    left: 75px;
+    top: 215px;
+    overflow: hidden;
+}
